@@ -27,6 +27,12 @@ body {
     margin-top: 32px;
     padding: 0 5rem;
     display: flex;
+    flex-direction: column;
+}
+
+.navigation__content {
+    padding: 0 5rem;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -263,12 +269,23 @@ body {
 }
 
 .about__statistic_content {
+    width: 100%;
+    height: 210px;
     background: #1C3F39;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistic__group {
+    width: 1169px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .statistic__box {
-    border: 2px solid red;
     width: 143px;
     height: 92px;
 }
@@ -277,4 +294,331 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.statistic__collum {
+    width: 1px;
+    height: 70px;
+}
+
+.statistic__collum img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about__holy_quran {
+    margin: 170px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holy__quran_content {
+    width: 1170px;
+    height: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 117px;
+}
+
+.holy__quran__image {
+    display: flex;
+    gap: 30px;
+}
+
+.holy__quran_image1 {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 382px;
+    border-radius: 12px;
+}
+
+.holy__quran_image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.holy__quran_image2 {
+    margin-top: 30px;
+    width: 270px;
+    height: 382px;
+    border-radius: 12px;
+}
+
+.holy__quran_image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.holy__auran_text {
+    padding-left: 13px;
+    width: 483px;
+    height: 352px;
+}
+
+.holy__quran_header {
+    margin-top: 6px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: #1C3F39;
+
+}
+
+.holy__quran__para {
+    margin-top: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #556561;
+
+}
+
+.holy__quran__title {
+    margin-top: 14px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #556561;
+
+}
+
+.holy__quran__btn a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1C3F39;
+    margin-top: 28px;
+    width: 160px;
+    height: 54px;
+    background: #F2AC0D;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* surahs__section */
+.surahs__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.surahs__content {
+    width: 1170px;
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.surahs__header {
+    width: 470px;
+    height: 104px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #1C3F39;
+}
+
+.surahs__button_group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.surahs__left_button {
+    padding: 6px;
+    width: 184px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #CCD3D2;
+    border-radius: 6px;
+}
+
+.surahs__btn1 a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 42px;
+    background: #26534C;
+    border-radius: 6px;
+}
+
+.surahs__btn2 a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #1C3F39;
+}
+
+.surahs__right_button {
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.surahs__right_button a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #556561;
+}
+
+.surahs__right_button span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #1C3F39;
+}
+
+.surah__btn_icon {
+    height: 6px;
+    width: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.surah__btn_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.surahs__box_group {
+    margin-top: 48px;
+    width: 1170px;
+    height: 482px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.surahs__box {
+    padding: 22px;
+    width: 370px;
+    height: 98px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.surahs__name_and_no {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.surah_no {
+    width: 38px;
+    height: 38px;
+    background: #E9E6D7;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #605E54;
+}
+
+.surah__name_english {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1C3F39;
+    cursor: pointer;
+}
+
+.surah__title_english {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #556561;
+}
+
+.surah__name_arabic {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #1C3F39;
+    cursor: pointer;
+}
+
+.surah__title_arabic {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #556561;
+}
+
+.surah__footer__bttn a {
+    margin-top: 55px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1C3F39;
+    width: 160px;
+    height: 54px;
+    background: #F2AC0D;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
