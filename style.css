@@ -152,6 +152,18 @@ body {
     line-height: 72px;
     text-align: center;
     color: #1C3F39;
+    position: relative;
+}
+
+.about__header::after {
+    content: "";
+    position: absolute;
+    width: 203px;
+    height: 94px;
+    bottom: -18px;
+    right: 70px;
+    border: 3px solid #F2AC0D;
+    border-radius: 50%;
 }
 
 .about__para {
@@ -369,7 +381,18 @@ body {
     font-size: 42px;
     line-height: 52px;
     color: #1C3F39;
+    position: relative;
+}
 
+.holy__quran_header::after {
+    content: "";
+    position: absolute;
+    width: 144px;
+    height: 69px;
+    left: -15px;
+    top: -10px;
+    border: 3px solid #F2AC0D;
+    border-radius: 50%;
 }
 
 .holy__quran__para {
@@ -437,6 +460,18 @@ body {
     line-height: 52px;
     text-align: center;
     color: #1C3F39;
+    position: relative;
+}
+
+.surahs__header::after {
+    content: "";
+    position: absolute;
+    width: 304px;
+    height: 64px;
+    left: 75px;
+    border: 3px solid #F2AC0D;
+    border-radius: 50%;
+
 }
 
 .surahs__button_group {
@@ -750,6 +785,18 @@ body {
     font-size: 42px;
     line-height: 52px;
     color: #FFFFFF;
+    position: relative;
+}
+
+.reciters__title::after {
+    content: "";
+    position: absolute;
+    width: 188px;
+    height: 64px;
+    left: 155px;
+    bottom: -12px;
+    border: 3px solid #F2AC0D;
+    border-radius: 50%;
 }
 
 .reciters__para {
@@ -827,14 +874,14 @@ body {
 .eillipse {
     position: absolute;
     bottom: 120px;
-    right: 40px;
+    right: 30px;
     width: 174px;
     height: 87px;
 }
 
 /* blog__section */
 .blog__container {
-    margin-top: 170px;
+    padding-top: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -849,6 +896,18 @@ body {
     line-height: 52px;
     text-align: center;
     color: #1C3F39;
+    position: relative;
+}
+
+.blog__header::after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 61px;
+    top: -5px;
+    right: -20px;
+    border: 3px solid #F2AC0D;
+    border-radius: 50%;
 }
 
 .blog__title {
@@ -996,7 +1055,7 @@ body {
     background: url(./images/Vector\ \(1\).png);
     background-position: center;
     background-size: contain;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .ict__container::after {
@@ -1005,9 +1064,255 @@ body {
     height: 457.3666687011719px;
     width: 544px;
     top: 0;
-    right: 25;
+    right: 35px;
     background: url(./images/Vector\ \(1\).png);
     background-position: center;
     background-size: contain;
+}
+
+.ict__content {
+    width: 100%;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ict__header {
+    width: 670px;
+    height: 104px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
     z-index: 1;
+    position: relative;
+}
+
+.ict__header::after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 61px;
+    bottom: -10px;
+    right: 265px;
+    border: 3px solid #F2AC0D;
+    border-radius: 50%;
+    /* z-index: 1; */
+}
+
+.ict__title {
+    margin-top: 20px;
+    width: 570px;
+    height: 56px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #B7CBC7;
+    z-index: 1;
+}
+
+.ict__image__group {
+    margin-top: 38px;
+    width: 271px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ict__image {
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.ict__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* footer__section */
+.footer__container {
+    margin-top: 70px;
+    margin-bottom: 28px;
+    margin-left: 135px;
+    margin-right: 135px;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer__content {
+    display: flex;
+}
+
+.footer__group1 {
+    width: 248px;
+    margin-right: 77px;
+}
+
+.footer__logo {
+    width: 105.18px;
+    height: 25.5px;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer__group1__title {
+    margin-top: 16.5px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #556561;
+}
+
+.footer__icons_group {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    background: #D1CDB7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.icon:nth-child(2) {
+    background: #F2AC0D;
+}
+
+.icon i {
+    font-size: 20px;
+    color: #1C3F39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group__header {
+    margin-bottom: 12px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1C3F39;
+}
+
+.group__title {
+    margin-top: 10px;
+}
+
+.group__title a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #556561;
+}
+
+.footer__group2 {
+    margin-right: 77px;
+}
+
+.footer__group3 {
+    margin-right: 90px;
+}
+
+.footer__group4 {
+    margin-right: 77px;
+}
+
+.fixed__icon {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 0;
+    top: 304px;
+    background: #26534C;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed {
+    height: 8px;
+    width: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer__dash {
+    margin-top: 56px;
+    width: 100%;
+    border: 1px solid #556561;
+}
+
+.footer__pro {
+    width: 71px;
+    height: 28px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.footer__pro a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #556561;
+}
+
+.pro__arrow {
+    width: 10px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro__arrow img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
