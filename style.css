@@ -1463,6 +1463,8 @@ body {
     .holy__quran_content {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .holy__quran__image {
@@ -1504,6 +1506,13 @@ body {
         flex-direction: column;
     }
 
+    .quran__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .holy__quran_header {
         width: 339px;
         height: 36px;
@@ -1543,10 +1552,80 @@ body {
         color: #556561;
     }
 
+    .holy__quran__btn {
+        margin-left: 4rem;
+    }
+
     .holy__quran__btn a {
         width: 154px;
         height: 54px;
         background: #F2AC0D;
         border-radius: 6px;
+    }
+
+    .surahs__header {
+        width: 339px;
+        height: 72px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #1C3F39;
+    }
+
+    .surahs__header::after {
+        border: none;
+    }
+
+    .surahs__button_group {
+        width: 339px;
+
+    }
+
+    .surahs__button_group {
+        margin-top: 12px;
+    }
+
+    .surahs__left_button {
+        width: 127px;
+        height: 44px;
+        border: 1px solid #CCD3D2;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .surahs__btn1 a {
+        width: 64px;
+        height: 34px;
+        background: #26534C;
+        border-radius: 4px;
+    }
+
+    .surahs__btn2 a {
+        width: 64px;
+        height: 34px;
+        border-radius: 4px;
+    }
+
+    .surahs__box_group {
+        margin-top: 108px;
+        width: 370px;
+        height: 1352px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid red;
+    }
+
+
+    .surahs__box {
+        width: 370px;
+        height: 98px;
     }
 }
