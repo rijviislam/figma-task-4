@@ -1316,7 +1316,7 @@ body {
     object-fit: contain;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     body {
         background-color: E9E7D6;
     }
@@ -1634,6 +1634,10 @@ body {
 
     .reciters__container {
         display: none;
+    }
+
+    .blog__container {
+        background: none;
     }
 
     .blog__header {
