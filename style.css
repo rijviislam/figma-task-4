@@ -1055,7 +1055,6 @@ body {
     background: url(./images/Vector\ \(1\).png);
     background-position: center;
     background-size: contain;
-    /* z-index: 1; */
 }
 
 .ict__container::after {
@@ -1563,6 +1562,11 @@ body {
         border-radius: 6px;
     }
 
+    .surahs__content {
+        width: 370px;
+        min-height: 1640px;
+    }
+
     .surahs__header {
         width: 339px;
         height: 72px;
@@ -1613,19 +1617,218 @@ body {
     }
 
     .surahs__box_group {
-        margin-top: 108px;
         width: 370px;
         height: 1352px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 2px solid red;
+        gap: 16px;
     }
 
 
     .surahs__box {
         width: 370px;
         height: 98px;
+    }
+
+    .reciters__container {
+        display: none;
+    }
+
+    .blog__header {
+        width: 339px;
+        height: 36px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #1C3F39;
+    }
+
+    .blog__header::after {
+        display: none;
+    }
+
+    .blog__title {
+        width: 339px;
+        height: 48px;
+    }
+
+    .blog__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog__content_box {
+        padding: 8px;
+        width: 339px;
+        height: 172px;
+        background: #FFFFFF;
+        box-shadow: 0px 10.8252px 33.6783px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17px;
+    }
+
+    .blog__box_image {
+        padding: 0;
+        width: 140px;
+        height: 156px;
+        border-radius: 6px;
+    }
+
+    .blog__box_image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .blog__text_box {
+        padding: 0;
+    }
+
+    .blog__text_header {
+        width: 159px;
+        height: 37px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12.012px;
+        line-height: 18px;
+        color: #1C3F39;
+    }
+
+    .blog__text_dash {
+        margin-top: 12px;
+        width: 22px;
+        height: 1px;
+        background: #26534C;
+        border-radius: 0.5px;
+    }
+
+    .blog__text_para {
+        margin-top: 8px;
+        margin-bottom: 6px;
+        width: 166px;
+        height: 48px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        color: #556561;
+    }
+
+    .blog__text_readnow {
+        margin: 0;
+    }
+
+    .blog__text_readnow a {
+        width: 48px;
+        height: 16px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+        color: #F2AC0D;
+    }
+
+    .blog__text_readnow2 a {
+        width: 48px;
+        height: 16px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-size: 10px;
+        line-height: 16px;
+        color: #1C3F39;
+    }
+
+    .islamic__readall_btn a {
+        width: 154px;
+        height: 54px;
+        background: #F2AC0D;
+        border-radius: 6px;
+    }
+
+    .ict__container {
+        width: 375px;
+        height: 344.28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ict__container::before {
+        display: none;
+    }
+
+    .ict__container::after {
+        display: none;
+    }
+
+    .ict__header {
+        width: 339px;
+        height: 72px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .ict__header::after {
+        border: none;
+    }
+
+    .ict__title {
+        width: 339px;
+        height: 72px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #B7CBC7;
+    }
+
+    .footer__container {
+        margin: 0;
+        padding: 0;
+        width: 339px;
+        height: 1331px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .footer__content {
+        margin-top: 56px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .fixed__icon {
+        display: none;
+    }
+
+    .footer__dash {
+        margin-top: 75px;
+    }
+
+    .footer__pro {
+        margin-top: 16px;
     }
 }
